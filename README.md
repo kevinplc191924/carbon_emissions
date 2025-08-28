@@ -1,16 +1,35 @@
-# 🌱 Climate Analysis of Ecuador: CO₂ and Temperature Trends
-This project explores long-term climate behavior in Ecuador and the world using Python. It focuses on atmospheric CO₂ concentrations and annual surface temperature changes from 1961 to 2022.
+# 🌍 Global Analysis: Atmospheric CO₂ Trends (1958–2024)
+The `carbon_emisions.ipynb` notebook explores the long-term evolution of atmospheric carbon dioxide concentrations, drawing from monthly data spanning over six decades. The analysis reveals a story of steady, structured growth.
 
-The analysis includes:
+## Findings
+- After cleaning the dataset to remove duplicate entries and a single outlier, the time series was prepared for deeper exploration. The data shows a clear upward trajectory: **CO₂ levels have risen from around 315 ppm in the late 1950s to over 420 ppm in the 2020s**. This increase is not random, it is persistent.
 
-- Statistical summaries and distribution modeling.
+<p align="center">
+  <img src="assets/co2_dist.png" alt="Carbon Levels">
+</p>
 
-- Seasonal decomposition and anomaly detection.
+- **Monthly percentage changes**, while typically small, tend to be positive, showing a slow but compounding rise.
 
-- Moving averages and regression trend analysis.
+<p align="center">
+  <img src="assets/month_changes.png" alt="Montly Percentage Changes">
+</p>
 
-- Decadal comparisons of temperature variability.
+- **Seasonal decomposition** confirms a strong annual cycle: concentrations peak mid-year and decrease toward the end, reflecting biospheric processes like plant growth and decay.
 
-- Linear regressions linking CO₂ levels to temperature change.
+<p align="center">
+  <img src="assets/decomposition.png" alt="Seasonal Decomposition">
+</p>
 
-By combining visual analytics with statistical rigor, the project offers a clear, data-driven narrative of Ecuador’s evolving climate. Tools used include Pandas, Matplotlib, Seaborn, and SciPy.
+- When **broken down by decade**, the shift becomes even more striking. Each ten-year slice shows higher medians, wider ranges, and elevated minimums—evidence of a system that’s not just fluctuating, but fundamentally changing. For example, the median CO₂ level in the 1960s was around 320 ppm; by the 2010s, it had climbed past 400 ppm.
+
+<p align="center">
+  <img src="assets/decades.png" alt="Medians per Decade">
+</p>
+
+- **Seasonal patterns** add another layer of insight. Winter months consistently show the highest concentrations, while autumn tends to be the lowest. This rhythm aligns with natural carbon cycles, reinforcing the ecological underpinnings of the data.
+
+<p align="center">
+  <img src="assets/seasons.png" alt="Season Patterns">
+</p>
+
+In sum, the global analysis paints a clear picture: atmospheric CO₂ is rising, steadily and structurally. The changes are subtle month to month, but very distinctive across decades. This foundation sets the stage for more localized investigations, including Ecuador’s emissions and temperature trends.
