@@ -5,7 +5,7 @@ The `carbon_emisions.ipynb` notebook explores the long-term evolution of atmosph
 - After cleaning the dataset to remove duplicate entries and a single outlier, the time series was prepared for deeper exploration. The data shows a clear upward trajectory: **CO₂ levels have risen from around 315 ppm in the late 1950s to over 420 ppm in the 2020s**. This increase is not random, it is persistent.
 
 <p align="center">
-  <img src="assets/co2_dist.jpeg" alt="Carbon Levels">
+  <img src="assets/trend.jpeg" alt="Carbon Levels">
 </p>
 
 - **Monthly percentage changes**, while typically small, tend to be positive, showing a slow but compounding rise.
