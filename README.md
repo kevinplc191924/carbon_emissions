@@ -73,7 +73,7 @@ The `temperature.ipynb` file analyzes Ecuador’s annual surface temperature cha
 - Finally, **regression models linking atmospheric CO₂ concentrations to temperature change** show a strong and statistically significant relationship. Each additional ppm of CO₂ corresponds to roughly 0.013 °C of warming, with R² values near 0.59. This confirms that Ecuador’s warming is closely tied to global carbon buildup, reinforcing the patterns observed in the global analysis.
 
 <p align="center">
-  <img src="assets/reg_change.jpeg" alt="Regression on Temperature">
+  <img src="assets/reg_change.jpeg" alt="Regression on Carbon Change">
 </p>
 
 ---
